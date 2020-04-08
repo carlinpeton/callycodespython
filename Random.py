@@ -87,25 +87,25 @@ import random
 
 # 059
 
-# colour = ["blue", "purple", "green", "orange", "red"]
-# rand_col = random.choice(colour)
-# choice = input("Guess the colour I am thinking of: ")
-#
-# while rand_col != choice:
-#     if rand_col == "blue":
-#         print("You are probably feeling quite blue right now.")
-#         choice = input("Guess the colour I am thinking of again: ")
-#     elif rand_col == "purple":
-#         print("A purple heart is better than a black heart.")
-#         choice = input("Guess the colour I am thinking of again: ")
-#     elif rand_col == "green":
-#         print("If you want grass, just water your own.")
-#         choice = input("Guess the colour I am thinking of again: ")
-#     elif rand_col == "orange":
-#         print("Only plumbs think they can rhyme orange.")
-#         choice = input("Guess the colour I am thinking of again: ")
-#     else:
-#         print("I don't know what you've RED, but it's not what it looks like.")
-#         choice = input("Guess the colour I am thinking of again: ")
-#
-# print("Well done champ.")
+colour = ["blue", "purple", "green", "orange", "red"]
+rand_col = random.choice(colour)
+choice = input("Guess the colour I am thinking of: ")
+
+while rand_col != choice:
+    if rand_col == "blue":
+        print("You are probably feeling quite blue right now.")
+        choice = input("Guess the colour I am thinking of again: ")
+    elif rand_col == "purple":
+        print("A purple heart is better than a black heart.")
+        choice = input("Guess the colour I am thinking of again: ")
+    elif rand_col == "green":
+        print("If you want grass, just water your own.")
+        choice = input("Guess the colour I am thinking of again: ")
+    elif rand_col == "orange":
+        print("Only plumbs think they can rhyme orange.")
+        choice = input("Guess the colour I am thinking of again: ")
+    else:
+        print("I don't know what you've RED, but it's not what it looks like.")
+        choice = input("Guess the colour I am thinking of again: ")
+
+print("Well done champ.")
