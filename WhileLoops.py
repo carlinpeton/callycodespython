@@ -79,7 +79,8 @@
 #
 # print("Thank you!")
 
-# 051 A bit more advanced and mentally stimulating.
+# 051 A bit more advanced and mentally stimulating. I missed out the if statement on my attempt. Mine is an improved
+# version of the solution given in the book.
 
 num = 10
 
@@ -90,8 +91,12 @@ while num != 0:
     num -= 1
     left = int(input("How many green bottles will be hanging on the wall? : "))
 
-    while left != num:
-        left = int(input("No, please try again: "))
+    if left == num:
+        print("There will be", num, "green bottles on the wall.")
+    else:
+        while left != num:
+            left = int(input("No, please try again: "))
+        print("There will be", num, "green bottles on the wall.")
 
-    print("There will be no more green bottles hanging on the wall.")
+print("There will be no more green bottles hanging on the wall.")
 
